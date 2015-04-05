@@ -20,12 +20,13 @@
 	position: absolute;
 }
 #arrows {
-	z-index: 2;
+	z-index: 20;
 	position: absolute;
+	pointer-events: none;
 }
 .images {
 	position: absolute;
-	z-index: 1;
+	z-index: 10;
 }
 #turn {
 	text-align: center;
@@ -47,4 +48,8 @@
 	height: 400px;
 	width: 400px;
 	background-color: blue;
+}
+
+.moving_checker {
+	z-index: 100000;
 }
